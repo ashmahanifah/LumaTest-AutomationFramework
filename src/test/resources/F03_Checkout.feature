@@ -4,7 +4,7 @@ Feature: checkout
   Background:
     Given user is on the homepage
     And user clicks the SignIn button
-    And user input email with "set10@set.com"
+    And user input email with "set14@set.com"
     And user input password with "P@ssw0rd"
     And user clicks Sign-In button
     Then user is navigated to the homepage

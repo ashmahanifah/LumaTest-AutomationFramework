@@ -11,7 +11,7 @@ Feature: Create Account
     Given user is on the create account page
     And user inputs "First Name" with "Tyler"
     And user inputs "Last Name" with "Agatha"
-    And user inputs "Email" with "set10@set.com"
+    And user inputs "Email" with "set14@set.com"
     And user inputs "Password" with "P@ssw0rd"
     And user inputs "Confirm Password" with "P@ssw0rd"
     When user clicks the "Create an Account" button
