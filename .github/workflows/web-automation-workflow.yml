@@ -36,7 +36,7 @@ jobs:
 
     # Archive Test Result
     - name: Archive Test Result
-      uses: actions/upload-artifact@v3.1.0
+      uses: actions/upload-artifact@v4.4.3
       if: always()
       with:
         name: Cucumber-Report
@@ -45,7 +45,7 @@ jobs:
     # Deploy to Github Pages
     - name: Deploy report to Github Pages
       if: always()
-      uses: peaceiris/actions-gh-pages@v3.7.3
+      uses: peaceiris/actions-gh-pages@v4.0.0
       with:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_DIR: laporan
